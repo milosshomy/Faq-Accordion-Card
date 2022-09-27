@@ -111,6 +111,10 @@ body {
   transition: 200ms ease-in-out;
 }
 
+.accordion-item-title:hover {
+  color: var(--soft-red-clr);
+}
+
 .accordion-item-title.active {
   color: var(--very-dark-desaturated-blue-clr);
   font-weight: 700;
